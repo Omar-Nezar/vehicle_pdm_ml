@@ -15,7 +15,7 @@ app = FastAPI()
 # MongoDB connection
 client = MongoClient(mongo_uri) 
 db = client[db_name]
-collection = db["vehicle_registry"]
+collection = db["vehicles"]
 
 try:
     client.admin.command("ping")
@@ -23,14 +23,32 @@ try:
 except Exception as e:
     print("MongoDB connection failed:", e)
 
-@app.post("/uploadcsv/")
-async def upload_csv(file: UploadFile = File(...)):
+allowed_collections = {
+    "vehicles",
+    "vehicle_registry",
+    "service_history",
+}
+
+@app.post("/uploadcsv/{collection_name}")
+async def upload_csv(
+    collection_name: str,
+    file: UploadFile = File(...)
+    ):
     try:
         if not file.filename.lower().endswith(".csv"):
             raise HTTPException(
                 status_code=400,
                 detail="Only CSV files allowed"
             )
+
+        if not collection_name or collection_name not in allowed_collections: 
+            raise HTTPException( 
+                status_code=400, 
+                detail="Collection name is required / invalid name" 
+            )
+
+        # Get requested collection 
+        collection = db[collection_name]
 
         contents = await file.read()
 
@@ -50,13 +68,9 @@ async def upload_csv(file: UploadFile = File(...)):
 
         return {
             "message": "Upload successful",
+            "collection": collection_name,
             "csv_rows": len(df),
             "inserted_count": len(result.inserted_ids),
-            "vehicles": (
-                df["vehicle_id"].unique().tolist()
-                if "vehicle_id" in df.columns
-                else []
-            )
         }
 
     except HTTPException:
