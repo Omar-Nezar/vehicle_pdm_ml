@@ -1,0 +1,51 @@
+Fitting 3 folds for each of 15 candidates, totalling 45 fits
+[CV 1/3] END rsf__max_depth=20, rsf__max_features=0.5, rsf__min_samples_leaf=15, rsf__min_samples_split=40, rsf__n_estimators=150;, score=(train=0.668, test=0.607) total time=  29.9s
+[CV 2/3] END rsf__max_depth=20, rsf__max_features=0.5, rsf__min_samples_leaf=15, rsf__min_samples_split=40, rsf__n_estimators=150;, score=(train=0.670, test=0.609) total time=  31.1s
+[CV 3/3] END rsf__max_depth=20, rsf__max_features=0.5, rsf__min_samples_leaf=15, rsf__min_samples_split=40, rsf__n_estimators=150;, score=(train=0.671, test=0.608) total time=  28.9s
+[CV 1/3] END rsf__max_depth=15, rsf__max_features=log2, rsf__min_samples_leaf=30, rsf__min_samples_split=40, rsf__n_estimators=200;, score=(train=0.634, test=0.609) total time=  24.8s
+[CV 2/3] END rsf__max_depth=15, rsf__max_features=log2, rsf__min_samples_leaf=30, rsf__min_samples_split=40, rsf__n_estimators=200;, score=(train=0.635, test=0.611) total time=  25.3s
+[CV 3/3] END rsf__max_depth=15, rsf__max_features=log2, rsf__min_samples_leaf=30, rsf__min_samples_split=40, rsf__n_estimators=200;, score=(train=0.640, test=0.610) total time=  25.0s
+[CV 1/3] END rsf__max_depth=15, rsf__max_features=sqrt, rsf__min_samples_leaf=15, rsf__min_samples_split=30, rsf__n_estimators=100;, score=(train=0.653, test=0.609) total time=  14.1s
+[CV 2/3] END rsf__max_depth=15, rsf__max_features=sqrt, rsf__min_samples_leaf=15, rsf__min_samples_split=30, rsf__n_estimators=100;, score=(train=0.653, test=0.608) total time=  13.9s
+[CV 3/3] END rsf__max_depth=15, rsf__max_features=sqrt, rsf__min_samples_leaf=15, rsf__min_samples_split=30, rsf__n_estimators=100;, score=(train=0.657, test=0.608) total time=  13.6s
+[CV 1/3] END rsf__max_depth=20, rsf__max_features=0.7, rsf__min_samples_leaf=10, rsf__min_samples_split=30, rsf__n_estimators=250;, score=(train=0.695, test=0.604) total time= 1.1min
+[CV 2/3] END rsf__max_depth=20, rsf__max_features=0.7, rsf__min_samples_leaf=10, rsf__min_samples_split=30, rsf__n_estimators=250;, score=(train=0.698, test=0.608) total time= 1.1min
+[CV 3/3] END rsf__max_depth=20, rsf__max_features=0.7, rsf__min_samples_leaf=10, rsf__min_samples_split=30, rsf__n_estimators=250;, score=(train=0.699, test=0.606) total time= 1.0min
+[CV 1/3] END rsf__max_depth=20, rsf__max_features=0.7, rsf__min_samples_leaf=20, rsf__min_samples_split=15, rsf__n_estimators=250;, score=(train=0.669, test=0.606) total time=  57.9s
+[CV 2/3] END rsf__max_depth=20, rsf__max_features=0.7, rsf__min_samples_leaf=20, rsf__min_samples_split=15, rsf__n_estimators=250;, score=(train=0.671, test=0.610) total time=  59.7s
+[CV 3/3] END rsf__max_depth=20, rsf__max_features=0.7, rsf__min_samples_leaf=20, rsf__min_samples_split=15, rsf__n_estimators=250;, score=(train=0.673, test=0.609) total time=  55.8s
+[CV 1/3] END rsf__max_depth=10, rsf__max_features=0.7, rsf__min_samples_leaf=15, rsf__min_samples_split=15, rsf__n_estimators=150;, score=(train=0.649, test=0.611) total time=  29.4s
+[CV 2/3] END rsf__max_depth=10, rsf__max_features=0.7, rsf__min_samples_leaf=15, rsf__min_samples_split=15, rsf__n_estimators=150;, score=(train=0.646, test=0.610) total time=  30.9s
+[CV 3/3] END rsf__max_depth=10, rsf__max_features=0.7, rsf__min_samples_leaf=15, rsf__min_samples_split=15, rsf__n_estimators=150;, score=(train=0.655, test=0.609) total time=  29.2s
+[CV 1/3] END rsf__max_depth=10, rsf__max_features=0.5, rsf__min_samples_leaf=20, rsf__min_samples_split=40, rsf__n_estimators=100;, score=(train=0.642, test=0.611) total time=  16.4s
+[CV 2/3] END rsf__max_depth=10, rsf__max_features=0.5, rsf__min_samples_leaf=20, rsf__min_samples_split=40, rsf__n_estimators=100;, score=(train=0.640, test=0.610) total time=  16.5s
+[CV 3/3] END rsf__max_depth=10, rsf__max_features=0.5, rsf__min_samples_leaf=20, rsf__min_samples_split=40, rsf__n_estimators=100;, score=(train=0.647, test=0.610) total time=  16.1s
+[CV 1/3] END rsf__max_depth=15, rsf__max_features=sqrt, rsf__min_samples_leaf=10, rsf__min_samples_split=30, rsf__n_estimators=300;, score=(train=0.660, test=0.608) total time=  44.9s
+[CV 2/3] END rsf__max_depth=15, rsf__max_features=sqrt, rsf__min_samples_leaf=10, rsf__min_samples_split=30, rsf__n_estimators=300;, score=(train=0.662, test=0.608) total time=  45.4s
+[CV 3/3] END rsf__max_depth=15, rsf__max_features=sqrt, rsf__min_samples_leaf=10, rsf__min_samples_split=30, rsf__n_estimators=300;, score=(train=0.664, test=0.606) total time=  44.4s
+[CV 1/3] END rsf__max_depth=10, rsf__max_features=log2, rsf__min_samples_leaf=10, rsf__min_samples_split=20, rsf__n_estimators=150;, score=(train=0.640, test=0.611) total time=  18.2s
+[CV 2/3] END rsf__max_depth=10, rsf__max_features=log2, rsf__min_samples_leaf=10, rsf__min_samples_split=20, rsf__n_estimators=150;, score=(train=0.640, test=0.607) total time=  18.6s
+[CV 3/3] END rsf__max_depth=10, rsf__max_features=log2, rsf__min_samples_leaf=10, rsf__min_samples_split=20, rsf__n_estimators=150;, score=(train=0.646, test=0.607) total time=  17.9s
+[CV 1/3] END rsf__max_depth=20, rsf__max_features=0.5, rsf__min_samples_leaf=30, rsf__min_samples_split=40, rsf__n_estimators=250;, score=(train=0.647, test=0.608) total time=  42.3s
+[CV 2/3] END rsf__max_depth=20, rsf__max_features=0.5, rsf__min_samples_leaf=30, rsf__min_samples_split=40, rsf__n_estimators=250;, score=(train=0.646, test=0.611) total time=  43.8s
+[CV 3/3] END rsf__max_depth=20, rsf__max_features=0.5, rsf__min_samples_leaf=30, rsf__min_samples_split=40, rsf__n_estimators=250;, score=(train=0.650, test=0.610) total time=  41.5s
+[CV 1/3] END rsf__max_depth=15, rsf__max_features=0.7, rsf__min_samples_leaf=10, rsf__min_samples_split=40, rsf__n_estimators=150;, score=(train=0.675, test=0.606) total time=  35.3s
+[CV 2/3] END rsf__max_depth=15, rsf__max_features=0.7, rsf__min_samples_leaf=10, rsf__min_samples_split=40, rsf__n_estimators=150;, score=(train=0.675, test=0.610) total time=  36.5s
+[CV 3/3] END rsf__max_depth=15, rsf__max_features=0.7, rsf__min_samples_leaf=10, rsf__min_samples_split=40, rsf__n_estimators=150;, score=(train=0.679, test=0.608) total time=  34.6s
+[CV 1/3] END rsf__max_depth=10, rsf__max_features=sqrt, rsf__min_samples_leaf=30, rsf__min_samples_split=20, rsf__n_estimators=200;, score=(train=0.629, test=0.610) total time=  22.6s
+[CV 2/3] END rsf__max_depth=10, rsf__max_features=sqrt, rsf__min_samples_leaf=30, rsf__min_samples_split=20, rsf__n_estimators=200;, score=(train=0.629, test=0.610) total time=  22.7s
+[CV 3/3] END rsf__max_depth=10, rsf__max_features=sqrt, rsf__min_samples_leaf=30, rsf__min_samples_split=20, rsf__n_estimators=200;, score=(train=0.635, test=0.609) total time=  21.7s
+[CV 1/3] END rsf__max_depth=10, rsf__max_features=0.5, rsf__min_samples_leaf=20, rsf__min_samples_split=40, rsf__n_estimators=250;, score=(train=0.642, test=0.611) total time=  40.7s
+[CV 2/3] END rsf__max_depth=10, rsf__max_features=0.5, rsf__min_samples_leaf=20, rsf__min_samples_split=40, rsf__n_estimators=250;, score=(train=0.640, test=0.611) total time=  41.5s
+[CV 3/3] END rsf__max_depth=10, rsf__max_features=0.5, rsf__min_samples_leaf=20, rsf__min_samples_split=40, rsf__n_estimators=250;, score=(train=0.647, test=0.610) total time=  39.3s
+[CV 1/3] END rsf__max_depth=20, rsf__max_features=0.7, rsf__min_samples_leaf=30, rsf__min_samples_split=40, rsf__n_estimators=100;, score=(train=0.652, test=0.606) total time=  20.6s
+[CV 2/3] END rsf__max_depth=20, rsf__max_features=0.7, rsf__min_samples_leaf=30, rsf__min_samples_split=40, rsf__n_estimators=100;, score=(train=0.653, test=0.610) total time=  21.8s
+[CV 3/3] END rsf__max_depth=20, rsf__max_features=0.7, rsf__min_samples_leaf=30, rsf__min_samples_split=40, rsf__n_estimators=100;, score=(train=0.655, test=0.610) total time=  19.7s
+[CV 1/3] END rsf__max_depth=15, rsf__max_features=0.7, rsf__min_samples_leaf=15, rsf__min_samples_split=15, rsf__n_estimators=200;, score=(train=0.677, test=0.607) total time=  46.7s
+[CV 2/3] END rsf__max_depth=15, rsf__max_features=0.7, rsf__min_samples_leaf=15, rsf__min_samples_split=15, rsf__n_estimators=200;, score=(train=0.677, test=0.609) total time=  48.4s
+[CV 3/3] END rsf__max_depth=15, rsf__max_features=0.7, rsf__min_samples_leaf=15, rsf__min_samples_split=15, rsf__n_estimators=200;, score=(train=0.681, test=0.607) total time=  45.3s
+
+Best parameters:
+{'rsf__n_estimators': 250, 'rsf__min_samples_split': 40, 'rsf__min_samples_leaf': 20, 'rsf__max_features': 0.5, 'rsf__max_depth': 10}
+
+Best CV C-index: 0.6106
