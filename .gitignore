@@ -1,2 +1,4 @@
 .env
 /__pycache__
+rsf_pipeline.joblib
+rsf_pipeline_simple.joblib
